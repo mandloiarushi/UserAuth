@@ -2,6 +2,23 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
+# User Authentication App
+
+A simple **React Native** application that demonstrates **user authentication** using **React Context API**.  
+Users can **sign up**, **log in**, and see their profile on a **Home Screen**. The app persists authentication state using **AsyncStorage**, so the user stays logged in even after closing the app.
+
+---
+
+## Features
+
+1. **Authentication Flow**
+   - Signup with **Name**, **Email**, and **Password**.
+   - Signup button creates a new user.  
+   - Login with **Email** and **Password**.
+   - Navigate to Signup screen if user doesn’t have an account.  
+   - Logout functionality.
+   - Persisted authentication using **AsyncStorage**.
+
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
